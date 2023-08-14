@@ -1,0 +1,85 @@
+*{
+    padding : 0;
+    margin: 0;
+    background-color: #24252a;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+.logo{
+    color: white
+    font-size: 30px;
+}
+nav ul li{
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+button{
+    color: white;
+    background: lightseagreen;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor : pointer
+}
+.section{
+    
+    padding-top: 18%;
+    font-size: 40px;
+    color: burlywood;
+}
+.footer{
+    padding-top: 10%;
+    height: auto;
+    width: 100vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+   
+    
+
+    
+}
+.footer h3{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: burlywood;;
+
+}
+.footer p{
+    font-size: 15px;
+    max-width: 500px;
+    margin-left: 37%;
+    margin-top: 1.5rem;
+    
+   
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    
+    
+}
+.socials a{
+    color: aqua;  
+}
+.socials li{
+    margin-left: 1.2rem;
+}
